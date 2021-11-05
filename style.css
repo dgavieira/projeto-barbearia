@@ -149,11 +149,35 @@ td, th {
 	padding: 8px 15px;
 }
 
-/* csss da página inicial */
+/* css da página inicial */
 .banner {
-	width:100%;
+	width: 100%;
 }
 
-.titulo-centralizado {
-	
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left; /* limpa o float */
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+.principal em {
+	font-style: italic;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+.imagembeneficios {
+	width: 60%;
 }
